@@ -19,3 +19,9 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 ```
 
 <a href="http://siteexemplo.com.br"></a>
+
+# CSS
+
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;
