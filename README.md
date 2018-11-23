@@ -3,7 +3,7 @@
 É uma linguagem de marcação que tem as seguintes responsabilidades:
 
 - Conteúdo;
-- Semântico (tagas);
+- Semântico (tags);
 - Estrutura do site;
 
 
@@ -19,9 +19,19 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 ```
 
 <a href="http://siteexemplo.com.br"></a>
-
+```
 # CSS
 
 É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
 
 - Visual;
+
+- `background-color` - Usamos para dar cor ao fundo de uma tag.
+
+- `Color` - Usamos para dar cor a fontes.
+
+- `font-size` - Usamos para dar o tamanho da fonte que desejamos.
+
+- `font-family` - Usamos para dar a família da fonte que queremos.
+
+- `text-decoration` - Usamos para escolhero tipo de decoração do link/textos.
