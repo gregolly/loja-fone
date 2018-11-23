@@ -26,6 +26,8 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 
 - Visual;
 
+- Efeitos;
+
 - `background-color` - Usamos para dar cor ao fundo de uma tag.
 
 - `Color` - Usamos para dar cor a fontes.
