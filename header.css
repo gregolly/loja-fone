@@ -52,12 +52,13 @@ table {
 }
 header{
   background-color: #e24647;
-  padding: 40px 40px 0px 40px;
+  margin: 0 115px;
+  padding: 55px 60px 95px  60px;
+  /*  padding: top right bottom left;*/
+  color:#fff;
+  overflow: hidden;
 }
 
-h1, a{
-  color:#fff;
-}
 h1{
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -67,10 +68,13 @@ h1{
 }
 nav{
   float: right;
+  font-size: 21px;
+  font-family:  'roboto', sans-serif;
 }
 a{
   text-decoration: none;
-  font-size: 21px;
+  font-size: inherit;
+  color: inherit;
   padding-top: 8px;
   display: inline-block;
 }

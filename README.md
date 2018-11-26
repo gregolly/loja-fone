@@ -37,3 +37,7 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 - `font-family` - Usamos para dar a família da fonte que queremos.
 
 - `text-decoration` - Usamos para escolhero tipo de decoração do link/textos.
+
+- `float` - Flutua os elementos colocando eles em um novo contexto, mas nunca esconde o conteúdo, e o tamanho do elemento fica do tamanho do conteúdo.
+
+- `overflow` - 
