@@ -40,4 +40,4 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 
 - `float` - Flutua os elementos colocando eles em um novo contexto, mas nunca esconde o conteúdo, e o tamanho do elemento fica do tamanho do conteúdo.
 
-- `overflow` - 
+- `overflow - Hidden` - Escondende todo o conteúdo que sair do "container".
