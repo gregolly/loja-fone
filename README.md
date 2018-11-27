@@ -41,3 +41,13 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 - `float` - Flutua os elementos colocando eles em um novo contexto, mas nunca esconde o conteúdo, e o tamanho do elemento fica do tamanho do conteúdo.
 
 - `overflow - Hidden` - Escondende todo o conteúdo que sair do "container".
+
+- `line-height` - Usamos para decidir o tamanho da linha.
+
+- `width` - Usamos para definir a largurar de alguma tag que desejarmos.
+
+- `Height` - Usamos para definir a altura de alguma tag que desejarmos. 
+
+- `text-align` - Usamos para alinhar textos.
+
+- `display` - Usamos para modificar o tipo de "display" de alguma tag que desejarmos. 
