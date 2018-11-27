@@ -51,3 +51,5 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 - `text-align` - Usamos para alinhar textos.
 
 - `display` - Usamos para modificar o tipo de "display" de alguma tag que desejarmos. 
+
+-`position - absolute` -  Usamos para criar um novo contexto para mover e modificar o comportamento das tags do html.  Define a altura e largura é o conteúdo e consegue mover em relação a página.
