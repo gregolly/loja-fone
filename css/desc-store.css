@@ -1,0 +1,29 @@
+.desc-store{
+  float: right;
+  width: calc(50% - 60px);
+  margin-right: 60px;
+  font-family: 'Arial';
+}
+dl{
+  color: #fff;
+}
+.desc-title{
+  margin-bottom: 100px;
+}
+dd{
+  margin-bottom: 30px;
+}
+.more-info {
+  color: #fff;
+  font-size: 20px;
+  font-family:  Arial, Helvetica, sans-serif;
+  
+  text-decoration: none;
+}
+.desc2{
+  line-height: 30px;
+  font-size: 18px;
+}
+.desc-desc{
+  margin-bottom: 75px;
+}
