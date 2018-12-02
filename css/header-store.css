@@ -47,35 +47,35 @@ table {
 	border-spacing: 0;
 }
 /* estilo do projeto */
+body{
+  height: 3000px;
+  position: relative;
+  top: 2550px;
+}
 .clear{
   clear: both;
 }
-header{
-  background-color: #e24647;
-}
 .header-store{
-  background-color: #e24647;
-  margin: 0 115px;
-  padding: 55px 60px 95px  60px;
-  /*  padding: top right bottom left;*/
-  color:#fff;
+  color: #fff;
   overflow: hidden;
-
+  margin-bottom: 158px;
+  padding-left: 60px;
 }
 
-h1{
+.header-store > .logo{
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.logo{
+.header-store > .logo{
   float: left;
+  text-transform: uppercase;
 }
-.navigation{
+.header-store > .navigation{
   float: right;
   font-size: 21px;
   font-family:  'roboto', sans-serif;
 }
-.navigation a{
+.navigation > a{
   text-decoration: none;
   font-size: inherit;
   color: inherit;
@@ -83,6 +83,6 @@ h1{
   padding-top: 8px;
   display: inline-block;
 }
-.last{
+.-last{
   margin-right: 0;
 }
