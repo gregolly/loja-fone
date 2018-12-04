@@ -65,10 +65,9 @@ body{
 .header-store > .logo{
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.header-store > .logo{
   float: left;
   text-transform: uppercase;
+  width: 33.3%;
 }
 .header-store > .navigation{
   float: right;
