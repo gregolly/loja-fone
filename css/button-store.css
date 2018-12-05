@@ -14,6 +14,10 @@
   text-decoration: none;
   color: #fff;
 }
+.call-to-action .button-store::hover{
+  background-color: #fff;
+  color: #fff;
+}
 .button-store.-second{
   width: 218px;
   line-height: 56px;
@@ -28,11 +32,13 @@
   border: none;
   font-size: inherit;
   display: block;
+  cursor: pointer;
 }
 .call-to-action{
   display: inline-block;
   position: absolute;
   right: 0;
+  margin-right: 10px;
 }
 .botao{
   position: relative;

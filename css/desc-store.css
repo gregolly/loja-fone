@@ -6,8 +6,12 @@
   color: #fff;
 }
 .desc-product > .desc-title{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-size:  25px;
+}
+.desc-product > .item.-star{
+  margin-bottom: 5px;;
+  cursor: pointer;
 }
 .desc-product > .item{
   font-size: 20px;
@@ -18,7 +22,9 @@
   line-height: 30px;
   font-size: 18px;
 }
-
+.desc-product > .item.-star  + .item{
+margin-left: 7px;
+}
 dd > .more-info {
   color: #fff;
   font-size: 20px;
@@ -39,4 +45,11 @@ text-align: right;
 }
 .desc-product > .item.-last{
   margin-bottom: 75px;
+}
+.heart{
+  cursor: pointer;
+  position: relative;
+  left: 620px;
+  bottom: -40px
+  
 }

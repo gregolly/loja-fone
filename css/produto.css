@@ -1,10 +1,12 @@
 .prod-store{
   float: left;
-  width: calc(50% - 100px);
+  width: calc(50% - 210px);
   height: 554px;
   background-color: #fff;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   margin-right: 100px;
   display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
 }

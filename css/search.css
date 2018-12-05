@@ -1,33 +1,30 @@
-.search-bar{
-  border-bottom-color: #fff;
-  vertical-align: middle;
-}
-.search{
-  display: block;
+.navigation > .search{
   border: none;
-  float: left;
   background: none;
   color: #fff;
   border-bottom-color: #fff;
  border-bottom: 1px solid #fff; 
  margin-top: 5px;
+ width: 358px;
+ padding: 8px;
+ margin-right: 65px;
 }
 ::-webkit-input-placeholder {
   color: #fff;
-  font: 12px verdana, arial, sans-serif;
+  font: 20px verdana, arial, sans-serif;
 }
 
 :-moz-placeholder {
   color: #fff;
-  font: 12px verdana, arial, sans-serif;
+  font: 20px verdana, arial, sans-serif;
 }
 
 ::-moz-placeholder {
   color: #fff;
-  font: 12px verdana, arial, sans-serif;
+  font: 20px verdana, arial, sans-serif;
 }
 
 :-ms-input-placeholder {  
   color: #fff;
-  font: 12px verdana, arial, sans-serif;
+  font: 20px verdana, arial, sans-serif;
 }
