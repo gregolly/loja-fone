@@ -13,16 +13,34 @@
   margin-right: 40px;
   text-decoration: none;
   color: #fff;
+  /* transition: background-color is linear, color 4s linear;*/
 }
-.call-to-action .button-store::hover{
+.button-store:hover,
+.button-store:focus{
   background-color: #fff;
-  color: #fff;
+  color: #252c41;
+  transition:  .5s ease-in-out;
+  opacity: .9;
+}
+.button-store:active{
+  transform: scale(.5);
+}
+.button-store.-second:active{
+  transform: scale(.5);
 }
 .button-store.-second{
   width: 218px;
   line-height: 56px;
   background-color: transparent;
   border: 2px solid #fff;
+}
+.button-store.-second:hover,
+.button-store.-second:focus{
+  background-color: #fff;
+  opacity: .9;
+  color :#e24647;
+  transition: all  .500ms linear,
+
 }
 .button-store > button, 
 .button-store >  a{

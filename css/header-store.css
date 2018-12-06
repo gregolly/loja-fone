@@ -67,6 +67,7 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   float: left;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .header-store > .navigation{
   float: right;
@@ -78,8 +79,10 @@ body{
   font-size: inherit;
   color: inherit;
   margin-right: 60px;
-  padding-top: 8px;
   display: inline-block;
+}
+.navigation  a:hover{
+  border-bottom-color: 1px solid #fff;
 }
 .-last{
   margin-right: 0;
