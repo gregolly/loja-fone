@@ -15,6 +15,13 @@
   cursor: pointer;
   display: inline-block;
 }
+.desc-product .icon{
+  transition:  transform 100ms linear;
+}
+.desc-product  .icon:hover{
+  transform: scale(1.2);
+  
+}
 .desc-product > .item{
   font-size: 20px;
   margin-bottom: 30px;
@@ -54,7 +61,4 @@ text-align: right;
   transform: translateX(-100%);
   top: 8px;
   left: -47px;
-}
-.desc-product > .item.-heart:hover{
-
 }

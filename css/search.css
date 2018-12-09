@@ -8,6 +8,7 @@
  width: 358px;
  padding: 8px;
  margin-right: 65px;
+ vertical-align: bottom;
 }
 ::-webkit-input-placeholder {
   color: #fff;

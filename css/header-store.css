@@ -73,16 +73,32 @@ body{
   float: right;
   font-size: 21px;
   font-family:  'roboto', sans-serif;
+  position: relative;
+}
+.header-store .border{
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 200ms linear;
+  transform-origin: center left;
+  position: absolute;
+  bottom: 0;
+}
+.header-store .action:hover .border{
+border-bottom: 1px solid #fff;
+opacity: 1;
+transition: opacity 100ms linear;
+transform: scale(1);
 }
 .navigation > a{
   text-decoration: none;
   font-size: inherit;
   color: inherit;
   margin-right: 60px;
+  padding-bottom: 8px;
   display: inline-block;
-}
-.navigation  a:hover{
-  border-bottom-color: 1px solid #fff;
+  border-bottom: 1px solid transparent;
 }
 .-last{
   margin-right: 0;
