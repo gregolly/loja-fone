@@ -60,6 +60,7 @@ body{
   overflow: hidden;
   margin-bottom: 158px;
   padding-left: 60px;
+  box-sizing: border-box;
 }
 
 .header-store > .logo{
@@ -75,28 +76,26 @@ body{
   font-family:  'roboto', sans-serif;
   position: relative;
 }
-.header-store .border{
+.header-store .action::after{
+  content: ' ';
   height: 1px;
   width: 100%;
   background-color: #fff;
   transform: scaleX(0);
-  transition: transform 200ms linear;
+  transition: transform 200ms ease-in;
   transform-origin: center left;
   position: absolute;
   bottom: 0;
+  left: 0;
 }
-.header-store .action:hover .border{
-border-bottom: 1px solid #fff;
-opacity: 1;
-transition: opacity 100ms linear;
+.header-store .action:hover::after{
 transform: scale(1);
 }
-.navigation > a{
+.navigation  .action{
   text-decoration: none;
   font-size: inherit;
   color: inherit;
   margin-right: 60px;
-  padding-bottom: 8px;
   display: inline-block;
   border-bottom: 1px solid transparent;
 }
