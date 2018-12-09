@@ -96,9 +96,10 @@ transform: scale(1);
   font-size: inherit;
   color: inherit;
   margin-right: 60px;
+  padding-bottom: 8px;  
   display: inline-block;
   border-bottom: 1px solid transparent;
 }
-.-last{
+.action.-last{
   margin-right: 0;
 }

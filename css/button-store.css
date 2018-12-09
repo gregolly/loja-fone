@@ -10,7 +10,7 @@
   font-size: 20px;
   font-style: normal; 
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 40px;
+  margin-right: 29px;
   text-decoration: none;
   color: #fff;
   /* transition: background-color is linear, color 4s linear;*/
@@ -55,8 +55,7 @@
 .call-to-action{
   display: inline-block;
   position: absolute;
-  right: 0;
-  margin-right: 10px;
+  right: 82px;
 }
 .botao{
   position: relative;
