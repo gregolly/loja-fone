@@ -9,3 +9,23 @@
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
+
+  @media screen and (max-width: 1470px), (max-height:990px)
+  {
+    .container-store{
+      position: static;
+      transform: none;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 952px){
+   .container-store{
+    padding-right: 30px;
+   }
+  }
+
+  @media (max-width:375px){
+    .container-store{
+      padding-right: 16px;
+    }
+  }

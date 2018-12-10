@@ -47,11 +47,7 @@ table {
 	border-spacing: 0;
 }
 /* estilo do projeto */
-body{
-  height: 3000px;
-  position: relative;
-  top: 2550px;
-}
+
 .clear{
   clear: both;
 }
@@ -102,4 +98,48 @@ transform: scale(1);
 }
 .action.-last{
   margin-right: 0;
+}
+@media (max-width: 1250px){
+  .header-store > .logo{
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-store > .navigation{
+     float: none;
+     text-align: center;
+    }
+}
+@media (max-width: 952px){
+  .header-store{
+    padding-left: 30px;
+  }
+  .navigation > .search{
+    display: none;
+  }
+}
+@media (max-width: 530px){
+  .header-store  .action{
+    margin-right: 30px;
+  }
+}
+
+@media(max-widith: 465px){
+  .header-store .action{
+    margin-right: 15px;
+  }
+}
+
+@media (max-width:375px){
+  .header-store{
+    padding-left: 16px;
+  }
+  .header-store .action{
+    margin-right: 10px;
+  }
+}
+@media (max-width: 335px){
+  .header-store > .navigation{
+    display: none;
+  }
 }

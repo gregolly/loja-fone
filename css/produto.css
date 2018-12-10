@@ -7,6 +7,18 @@
   border-bottom-right-radius: 150px;
   /*display: inline-block;*/
   padding-left: 50px;
-  padding-right: 150px;
-  
+  padding-right: 150px;  
+}
+
+
+@media screen and (max-width: 800px){
+  .prod-store{
+    float: none;
+    width: 50%;
+    max-width: 100%;
+  }
+  .prod-store img{
+    width: 100%;
+    display: block;
+  }
 }
