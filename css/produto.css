@@ -10,15 +10,27 @@
   padding-right: 150px;  
 }
 
-
-@media screen and (max-width: 800px){
+@media (max-width:1045px){
+  .prod-store{
+    padding-right: 220px;
+  }
+}
+@media  (max-width: 800px){
   .prod-store{
     float: none;
-    width: 50%;
-    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
   }
   .prod-store img{
     width: 100%;
     display: block;
+  }
+}
+@media (max-width: 450px){
+  .prod-store{
+    padding-left: 30px;
   }
 }

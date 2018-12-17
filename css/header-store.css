@@ -70,7 +70,6 @@ table {
   float: right;
   font-size: 21px;
   font-family:  'roboto', sans-serif;
-  position: relative;
 }
 .header-store .action::after{
   content: ' ';
@@ -95,6 +94,7 @@ transform: scale(1);
   padding-bottom: 8px;  
   display: inline-block;
   border-bottom: 1px solid transparent;
+  position: relative;
 }
 .action.-last{
   margin-right: 0;
@@ -120,19 +120,20 @@ transform: scale(1);
 }
 @media (max-width: 530px){
   .header-store  .action{
-    margin-right: 30px;
+    margin-right: 0px;
   }
 }
 
 @media(max-widith: 465px){
   .header-store .action{
-    margin-right: 15px;
+    margin-right: 0px;
   }
 }
 
 @media (max-width:375px){
   .header-store{
     padding-left: 16px;
+    padding-right: 16px;
   }
   .header-store .action{
     margin-right: 10px;

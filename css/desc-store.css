@@ -66,4 +66,23 @@ text-align: right;
     float: none;
     width: 100%;
   }
+  .desc-title{
+    text-align: center;
+  }
+  .desc-product > .item.-heart{
+    cursor: pointer;
+    position: static;
+    transform: translateX(0);
+    top: 0px;
+    left: 0px;
+   text-align: center;
+  }
+  .desc-product > .item.-star{
+    margin: 5px auto;
+    display: block
+  }
+  .desc-product > .item{
+    margin: 20px auto;
+    text-align: center;
+  }
 }
