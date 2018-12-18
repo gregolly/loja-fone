@@ -109,6 +109,9 @@ transform: scale(1);
      float: none;
      text-align: center;
     }
+    .header-store{
+      margin-bottom: 70px;
+    }
 }
 @media (max-width: 952px){
   .header-store{

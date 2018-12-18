@@ -60,17 +60,27 @@
 .botao{
   position: relative;
 }
-
-@media (max-width:589px){
-  .call-to-action{
-  position: static;
-  right: 0px;
+@media (max-width: 673px){
+  .botao{
+    position: static;
+    text-align: center;
   }
+  .call-to-action{
+    position: static;
+    }
+    .call-to-action{
+      text-align: center;
+    }
+    .button-store{
+      width: 100%;
+    }
+    .button-store.-second{
+      margin-bottom: 20px;
+      width: 100%;
+    }
 }
-
 @media(max-width: 525px){
   .button-store{
-    max-width: 200px;
     margin: 0px auto;
     transform: none;
   }

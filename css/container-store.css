@@ -1,7 +1,7 @@
   .container-store{
     box-sizing: border-box;
     background-color: #e24647;
-    width: 100%;
+    width: 90%;
     max-width: 1330px;
     padding: 55px 60px 165px 0;
     position: absolute;
@@ -16,6 +16,7 @@
       position: static;
       transform: none;
       max-width: 100%;
+      margin:  0 auto;
     }
   }
   @media (max-width: 952px){
