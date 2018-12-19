@@ -55,7 +55,7 @@
 .call-to-action{
   display: inline-block;
   position: absolute;
-  right: 82px;
+  right: 0px;
 }
 .botao{
   position: relative;
