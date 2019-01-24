@@ -29,3 +29,9 @@
   color: #fff;
   font: 20px verdana, arial, sans-serif;
 }
+
+@media(max-width:1047px){
+  .search{
+    display: none;
+  }
+}

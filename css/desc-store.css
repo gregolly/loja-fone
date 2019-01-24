@@ -1,6 +1,7 @@
 .desc-product{
   float: right;
-  width: calc(70% - 328px);;
+  width: calc(50% - 125px);
+  margin-left: 125px;
   font-family:  Arial, Helvetica, sans-serif;
   color: #fff;
   position: relative;
@@ -15,11 +16,14 @@
   display: inline-block;
 }
 .desc-product .icon{
-  transition:  transform 100ms linear;
+  transition:  transform 50ms linear;
 }
 .desc-product  .icon:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   
+}
+.desc-product .icon.-active{
+  display: none;
 }
 .desc-product > .item{
   font-size: 20px;
@@ -55,7 +59,13 @@ text-align: right;
   margin-bottom: 75px;
 }
 .desc-product > .item.-active{
-  background-color: #fff;
+  background-color: #252C41;
+}
+.desc-product > .item.-active .icon{
+  display: none;
+}
+.desc-product > .item.-active .icon.-active {
+  display: block;
 }
 .desc-product > .item.-heart{
   cursor: pointer;
@@ -63,29 +73,56 @@ text-align: right;
   transform: translateX(-100%);
   top: 8px;
   left: -47px;
+  width: 33px;
+  height: 29px;;
 }
-@media screen and (max-width: 800px){
+@media (max-width: 1047px){
   .desc-product{
     float: none;
     width: 100%;
+    margin-left: 0px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: relative;
   }
-  .desc-title{
+}
+@media screen and (max-width: 1047px){
+  .desc-product{
+    float: none;
+    width: 100%;
+    position: relative;
+  }
+  .desc-product > .desc-title{
+    margin: 50px 0;
     text-align: center;
   }
   .desc-product > .item.-heart{
-    cursor: pointer;
-    position: static;
-    transform: translateX(0);
-    top: 0px;
-    left: 0px;
-   text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 15%;
   }
   .desc-product > .item.-star{
     margin: 5px auto;
-    display: block
-  }
-  .desc-product > .item{
-    margin: 20px auto;
+    display: block;
     text-align: center;
+  }
+  .desc-product > .item.-star + .item{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .desc-product .-info{
+    margin: 20px auto;
+  }
+  .desc-product > .item.-last{
+    margin-bottom: 50px;
+  }
+  .desc-product > .summary{
+    display: block;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+  dd > .more-info{
+    margin-bottom: 50px;
+    padding: 0 20px;
   }
 }

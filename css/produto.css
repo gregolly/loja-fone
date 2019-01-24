@@ -1,18 +1,22 @@
 .prod-store{
   float: left;
-  width: calc(30%);
+  width: calc(50%);
   /*height: 554px;*/
   background-color: #fff;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   /*display: inline-block;*/
-  padding-left: 50px;
-  padding-right: 150px;  
+  
 }
 
-@media (max-width:1045px){
+@media (max-width: 1047px){
   .prod-store{
-    padding-right: 220px;
+    float: none;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-size: 100%;
+    text-align: center;
   }
 }
 @media  (max-width: 800px){
