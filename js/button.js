@@ -9,7 +9,7 @@ $second.addEventListener("click", function(){
   //valorInicial += 1;
   //valorInicial++;
 
-  $carrinho.textContent = `Carinho  (${++valorInicial})`;
+  $carrinho.textContent = `Carrinho  (${++valorInicial})`;
 });
 
 
